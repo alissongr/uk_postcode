@@ -36,5 +36,6 @@ setup(
     author='Alisson Silveira',
     install_requires=install_requires,
     dependency_links=dependency_links,
-    author_email='assilveira@gmail.com'
+    author_email='assilveira@gmail.com',
+    python_requires=">=3.6"
 )
