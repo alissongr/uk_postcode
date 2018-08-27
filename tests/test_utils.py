@@ -6,7 +6,7 @@ from uk_postcode.utils import validate, format_postcode
 @pytest.mark.parametrize('expected, postcode', [
     (True, 'EC1A 1BB'), (True, 'W1A 0AX'),
     (True, 'M1 1AE'),   (True, 'B33 8TH'),
-    (True, 'CR26XH'),  (True, 'DN551PT'),
+    (True, 'CR26XH'),   (True, 'DN551PT'),
     (True, 'WC1A0AX'),  (True, 'M11AE'),
 ])
 def test_true_for_valid_postcodes(expected, postcode):
