@@ -30,12 +30,12 @@ Example
 -------
 
 ```python
-from uk_postcode import validate
+from uk_postcode.utils import validate
 print(validate('EC1A 1BB'))
 True
 
-from uk_postcode import format
-print(format('EC1A1BB'))
+from uk_postcode.utils import format_postcode
+print(format_postcode('EC1A1BB'))
 'EC1A 1BB'
 ```
 
